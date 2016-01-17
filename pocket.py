@@ -48,7 +48,7 @@ class ItemsList(object):
 class Item(object):
     '''A Class representing a saved item.
 
-    The Item structure exposes the folowing properties:
+    The Item structure exposes the following properties:
 
         item.id
         item.normal_url
@@ -306,7 +306,7 @@ class Api(object):
         return ItemsList(items_list, status)
 
     def send(self, actions):
-        '''Send allows you to make a change or batch several changes to a user’s 
+        '''Send allows you to make a change or batch several changes to a user's
         list or Pocket data.
 
         Args:
